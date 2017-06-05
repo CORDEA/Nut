@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="common_margin">16dp</dimen>
+    <dimen name="notification_button_margin">8dp</dimen>
+    <dimen name="notification_title_bottom_margin">8dp</dimen>
+    <dimen name="notification_button_radius">2dp</dimen>
+    <dimen name="notification_v21_padding">8dp</dimen>
+</resources>

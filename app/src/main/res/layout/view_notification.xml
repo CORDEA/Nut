@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/notification_v21_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            style="@style/AppTheme.Button"
+            android:id="@+id/a_button"
+            android:text="@string/macadamia"
+            android:layout_marginEnd="@dimen/notification_button_margin"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            style="@style/AppTheme.Button"
+            android:id="@+id/b_button"
+            android:text="@string/peanut"
+            android:layout_marginEnd="@dimen/notification_button_margin"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            style="@style/AppTheme.Button"
+            android:id="@+id/c_button"
+            android:text="@string/almond"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_toStartOf="@id/container"
+        android:layout_marginEnd="@dimen/notification_v21_padding"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
